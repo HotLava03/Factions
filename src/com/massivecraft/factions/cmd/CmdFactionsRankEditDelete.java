@@ -33,7 +33,9 @@ public class CmdFactionsRankEditDelete extends FactionsCommand
 	@Override
 	public void perform() throws MassiveException
 	{
-		// Args
+		// Disabling this
+		msg("<b>Sorry, editing ranks is disabled.");
+		/*// Args
 		Faction faction = this.readArgAt(1, msenderFaction);
 
 		// Rank if any passed.
@@ -62,7 +64,7 @@ public class CmdFactionsRankEditDelete extends FactionsCommand
 		faction.getRanks().detachEntity(rank);
 
 		// Inform
-		msg("<i>You deleted the rank <reset>%s<i>.", visual);
+		msg("<i>You deleted the rank <reset>%s<i>.", visual);*/
 	}
 	
 }

@@ -30,7 +30,9 @@ public class CmdFactionsRankEditName extends FactionsCommand
 	@Override
 	public void perform() throws MassiveException
 	{
-		// Args
+		// Disabling this
+		msg("<b>Sorry, editing ranks is disabled.");
+		/*// Args
 		String name = this.readArgAt(1);
 		Faction faction = this.readArgAt(2, msenderFaction);
 
@@ -53,7 +55,7 @@ public class CmdFactionsRankEditName extends FactionsCommand
 		rank.setName(name);
 
 		// Visual
-		msg("<i>You renamed the rank from <reset>%s <i>to <reset>%s<i>.", priorVisual, rank.getVisual());
+		msg("<i>You renamed the rank from <reset>%s <i>to <reset>%s<i>.", priorVisual, rank.getVisual());*/
 	}
 
 }

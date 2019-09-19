@@ -37,7 +37,7 @@ public class CmdFactionsDocumentationRanks extends FactionsCommandDocumentation
 		msgDoc("Ranks can have a prefix that will be prepended before any player name. Prefixes can be coloured.");
 		msgDoc("All ranks have a priority showed in parentheses after the name.");
 
-		Mson msonLeader = mson("The rank with the highest priority is deemed the “leader rank”" +
+		Mson msonLeader = mson("The rank with the highest priority is deemed the \"leader rank\"" +
 										 "(can be renamed) and only one person can have that rank")
 		.tooltip("For yor faction the leader rank is" + rankDesc.get(0))
 		.color(ChatColor.YELLOW);

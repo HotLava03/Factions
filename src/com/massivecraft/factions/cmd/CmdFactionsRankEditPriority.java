@@ -30,7 +30,9 @@ public class CmdFactionsRankEditPriority extends FactionsCommand
 	@Override
 	public void perform() throws MassiveException
 	{
-		// Args
+		// Disabling this
+		msg("<b>Sorry, editing ranks is disabled.");
+		/*// Args
 		Integer priority = this.readArgAt(1);
 		Faction faction = this.readArgAt(2, msenderFaction);
 
@@ -67,7 +69,7 @@ public class CmdFactionsRankEditPriority extends FactionsCommand
 		rank.setPriority(priority);
 
 		// Visual
-		msg("<i>You changed the priority of <reset>%s <i>from <h>%s <i>to <h>%s<i>.", rank.getVisual(), priorPriority, priority);
+		msg("<i>You changed the priority of <reset>%s <i>from <h>%s <i>to <h>%s<i>.", rank.getVisual(), priorPriority, priority);*/
 	}
 	
 }

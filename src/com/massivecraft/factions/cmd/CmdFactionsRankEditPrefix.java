@@ -28,7 +28,9 @@ public class CmdFactionsRankEditPrefix extends FactionsCommand
 	@Override
 	public void perform() throws MassiveException
 	{
-		// Args
+		// Disabling this
+		msg("<b>Sorry, editing ranks is disabled.");
+		/*// Args
 		String prefix = this.readArgAt(1);
 		Faction faction = this.readArgAt(2, msenderFaction);
 
@@ -44,7 +46,7 @@ public class CmdFactionsRankEditPrefix extends FactionsCommand
 		rank.setPrefix(prefix);
 
 		// Visual
-		msg("<i>You changed the prefix of <reset>%s <i>from <h>%s <i>to <h>%s<i>.", rank.getVisual(), priorPrefix, prefix);
+		msg("<i>You changed the prefix of <reset>%s <i>from <h>%s <i>to <h>%s<i>.", rank.getVisual(), priorPrefix, prefix);*/
 	}
 
 }

@@ -32,7 +32,9 @@ public class CmdFactionsRankEditCreate extends FactionsCommand
 	@Override
 	public void perform() throws MassiveException
 	{
-		// Args
+		// Disabling this
+		msg("<b>Sorry, editing ranks is disabled.");
+		/*// Args
 		String name = this.readArg();
 		Integer priority = this.readArg();
 		String prefix = this.readArg();
@@ -62,7 +64,7 @@ public class CmdFactionsRankEditCreate extends FactionsCommand
 		// Inform
 		msg("<i>You created the rank <reset>%s<i>.", rank.getVisual());
 		msg("<i>You might want to change its permissions:");
-		CmdFactions.get().cmdFactionsPerm.getTemplate(false, true, sender).messageOne(msender);
+		CmdFactions.get().cmdFactionsPerm.getTemplate(false, true, sender).messageOne(msender);*/
 	}
 
 }
