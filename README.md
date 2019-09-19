@@ -1,7 +1,7 @@
-**Warning**
+**Warning**:
 This is a quick fork for Factions that doesn't change the plugin much. It is NOT recommended to use this in your server, use the original Factions3.
 
-**Changes**
+**Changes**:
 The changes made in this plugin are personal and server-specific. <b>They do not have to do with any sort of issue or bug with Factions3!</b><br />
 - Removed VentureChat support<br />
 - Disabled faction rank editing<br />
