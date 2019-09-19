@@ -1,4 +1,4 @@
-package com.massivecraft.factions.task;
+/*package com.massivecraft.factions.task;
 
 import com.massivecraft.factions.Factions;
 import com.massivecraft.factions.entity.Faction;
@@ -223,3 +223,4 @@ public class TaskTax extends Task
 	}
 
 }
+*/
